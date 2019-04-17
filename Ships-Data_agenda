@@ -1,0 +1,49 @@
+/*This is agenda file to ShipDataBase Project files!*/
+
+In order to process information about ships and ship traffic for safety, secure and defence purposses 
+one needs to collect and work with different data. Basicaly this data can be divided into two groups:
+
+1. Ship static data - this is all information about ship which not changes for continuous time;
+2. Ship path data - this is information about where, how and when ship moves.
+
+Basic ship static data includes:
+
+Ship Name - unique name given to vessel;
+IMO Number - this is International Maritime Organisation Number, consists of the three letters "IMO" followed by unique seven-digit numbers, 
+assigned under the International Convention for the Safety of Life at Sea (SOLAS);
+MMSI Number - unique 9 digit number, given to vessels and coast stations according to GMDSS (Global Maritime Distress and Safety System).
+Flag - this is the flag of the country, where ship is enlisted in maritime authority administration registers.
+Ships are diferent types - general cargo, tanker, containership, passenger ship, laysure craft and so on.
+Phisical dimensions - length, beam, draft, height over water and displacement are also collected as a data. 
+
+Owner identity, master (ship kaptain) identity are also in this group, how many persons are int crew too.
+
+About ship movement it is obligatory for every ship to have an AIS transponder onboard, this transponder gives above mentioned static data for 
+the vessel and periodicly is updated by an appointed ship deck officer. 
+
+Also AIS transponder gives some dynamic data : position - latitude, longitude,
+speed over ground (SOG) - this is true speed of the vessel, given by GPS,
+course over ground (COG) - this is true course of the vessel, given by GPS,
+
+Also mentioned are next port of call (NPC), or where the vessel travel to,
+estimated time of arrival - ETA, last port of call (LPC), or from where vessel
+starts her voyage.
+
+Own sensors data usualy are collected with movement data of the vessel:
+track number - unique number of the track, presented on the chart,
+radar track number - this is radar plot number associated with track number (usualy this is authomatic process),
+
+M2M (mashine to maschine) this is new trend of observing ship activity by low speed satellite telematic equipment.
+Usualy each telematic platform has its own unique identification number (for example DNID of Inamrsat D equipment), 
+associated with particular ship.
+
+Ships have owners, but usualy other companies uses them for transportation of goods - therefore the charterer table exists.
+
+COI is comming from contact of interest, this is security issue, used by NATO and law enforsment authorities about particular vessels, 
+connected to suspect groups or activities. It could be military ships of opposing countries also. 
+
+CCTV means camera equipment for day/night visual observations of specific acvatories close to shore, ports or some important economic places (straits, channels, nuclear powerplants etc.)  
+
+In a nutshell this is agenda for interpretation of data base information and structure.
+
+    
